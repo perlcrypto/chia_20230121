@@ -1,0 +1,1 @@
+*/2 * * * *  perl ~/crontab_test.pl

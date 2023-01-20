@@ -1,0 +1,4 @@
+PATH=/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+0 */8 * * *  /usr/bin/perl ~/chia_blockchain/mv_plotServer.pl
+@reboot sleep 60 && chia start harvester -r
+#0 * */2 * * chia start harvester -r
